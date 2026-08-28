@@ -16,8 +16,14 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   },
-  "keywords": [],
-  "author": "Haniel Sousa e Souza",
+  "keywords": [
+    "node",
+    "express",
+    "mysql",
+    "api-rest",
+    "suporte-tecnico"
+  ],
+  "author": "Haniel Sousa eSouza",
   "license": "ISC",
   "type": "commonjs"
 }
