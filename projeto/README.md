@@ -148,3 +148,12 @@ Sugestão de sequência para demonstrar a integração:
   hash (ex: bcrypt) — fica como sugestão de melhoria futura.
 - Nenhum dado é fixo no frontend: os cards do dashboard e as listagens são sempre
   carregados via `fetch` para a API.
+
+
+
+Prints de comprovação:
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
