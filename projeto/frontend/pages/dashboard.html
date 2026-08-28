@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard - Sistema de Chamados</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Dashboard</h1>
+    <nav>
+      <span id="nome-usuario"></span>
+      <a href="chamados.html">Chamados</a>
+      <button id="btn-sair">Sair</button>
+    </nav>
+  </header>
+
+  <main class="dashboard">
+    <div class="card-resumo">
+      <h2 id="qtd-abertos">0</h2>
+      <p>Abertos</p>
+    </div>
+    <div class="card-resumo">
+      <h2 id="qtd-andamento">0</h2>
+      <p>Em andamento</p>
+    </div>
+    <div class="card-resumo">
+      <h2 id="qtd-concluidos">0</h2>
+      <p>Concluídos</p>
+    </div>
+    <div class="card-resumo">
+      <h2 id="qtd-total">0</h2>
+      <p>Total</p>
+    </div>
+  </main>
+
+  <script src="../js/api.js"></script>
+  <script src="../js/dashboard.js"></script>
+</body>
+</html>
